@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: todo-app
+  name: test-app
 spec:
   containers:
-  - name: todo-app
+  - name: test-app
     image: angurajnagaraj/python-app-sample:v1
     ports:
     - containerPort: 8000
