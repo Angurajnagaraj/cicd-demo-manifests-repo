@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: todo
-        image: angurajnagaraj/cicd-e2e:v1
+        image: angurajnagaraj/python-app-sample
         ports:
         - containerPort: 8000
