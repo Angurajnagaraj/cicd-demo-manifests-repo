@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
   - name: todo-app
-    image: angurajnagaraj/cicd-e2e:v1
+    image: angurajnagaraj/python-app-sample:v1
     ports:
     - containerPort: 8000
