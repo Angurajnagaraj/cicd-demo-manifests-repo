@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: test
-        image: angurajnagaraj/python-app-sample:${BUILD_NUMBER}
+        image: angurajnagaraj/python-app-sample:34
         ports:
         - containerPort: 8000
