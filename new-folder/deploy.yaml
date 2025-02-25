@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+apiVersion: apps/${BUILD_NUMBER}
 kind: Deployment
 metadata:
   name: test-app
@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: test
-        image: angurajnagaraj/python-app-sample:v1
+        image: angurajnagaraj/python-app-sample:${BUILD_NUMBER}
         ports:
         - containerPort: 8000
