@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: test
-        image: angurajnagaraj/python-web-app:37
+        image: angurajnagaraj/python-web-app:39
         ports:
         - containerPort: 8000
